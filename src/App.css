@@ -23,3 +23,55 @@ body {
   padding-left: 10px;
   outline: none;
 }
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+}
+.ul-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 4;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-img {
+  width: 350px;
+  margin-top: 70px;
+}
+.oops {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #475569;
+  font-weight: 500;
+  margin: 0px;
+  padding-top: 10px;
+}
+.desc {
+  font-family: 'Roboto';
+  font-size: 11px;
+  color: #475569;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.retry {
+  background-color: #328af2;
+  height: 25px;
+  border: none;
+  outline: none;
+  width: 60px;
+  color: #ffffff;
+  font-size: 9px;
+  font-family: 'Roboto';
+  border-radius: 2px;
+  font-weight: 500;
+}
